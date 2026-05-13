@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Boostrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" title="alap" id="alapccs">
+    <link rel="alternate stylesheet" href="nagyb.css" title="nagyb" id="nagybccs" disabled>
+    <!-- JS -->
+    <script src="script.js"></script>
+    <title>Közlekedés | Önfeledten Budapesten</title>
+</head>
+<body>
+
+  <!-- Tartalomra ugrás -->
+  <nav id="tartalomraugras">
+    <a href="#tartalom2">Ugrás a tartalomra</a>
+  </nav>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navid">
+      <div class="container-fluid navbar-custom">
+        <a class="navbar-brand" href="index.html" id="navtitle">Önfeledten Budapesten</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link navlink" id="nav1" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink current" id="nav2" href="kozlekedes.html">Közlekedés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink" id="nav3" href="programterkep.html">Programtérkép</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink" id="nav4" href="kialakulasa.html">Kialakulása</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Közlekedés</h1>
+      <div class="quote"><q>Sötét taxikban és tömött négyes-hatoson,
+        <br>Az első metrón és éjszakai buszokon,
+        <br>Házibulikba menet vagy házibulikból haza,
+        <br>Mindenki olyan szép, mindenki oly laza
+        </q><p>Carson Coma - Polaroid</p>
+      </div>
+    </div>
+
+    <!-- Cikkek -->
+    <div class="body" id="tartalom2">
+      <div class="article bevezeto">
+        <p>Környezettudatos, gyors, büdös - ezzel a három szóval lehet a legjobban jellemezni a budapesti közlekedést. Hétköznapjaim során, mint a legtöbb városi lakosnak, elengedhetetlen, hogy egyik villamosról a másikra pattanjak ügyintézéseim alkalmával. Elsőre talán kiismerhetetlennek tűnhet a járművek kusza menetrendje, de kellő tapasztalattal az egész város bejárhatóvá és könnyen megismerhetővé válik.</p>
+      </div>
+      <article id="bpgomaps" class="article">
+        <h2><span lang="en">Budapest GO</span> vagy <span lang="en">Google Maps</span></h2>
+        <p>Elinduláskor fontos előre ellenőrizni, merre is visz utunk a nap során. A legtöbb ember egy <b>utazástervező alkalmazással</b> nézi meg a napi útvonalát, ezek közül is kettő fontosabb is van: a <b><span lang="en">Google Maps</span></b> és  <b>Budapest GO.</b></p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 maps px-3 pt-3 pb-1 my-2">
+              <h3><span lang="en">Google Maps</span></h3>
+              <p>Tapasztalataim szerint a legtöbb esetben a <b>legoptimálisabb útvonalat kínálja</b>. <b>Be lehet állítani Munkahelyet</b>, Lakást és egyéb <b>mentett helyeket</b>, így könnyebb az útvonaltervezés folyamata. <b>Meg lehet osztani</b> másokkal a <b>tartózkodási helyünk</b>. Átjárást biztosít Androidos és <span lang="en">iOS</span>-es készülékek között, valamint számítógépen is lehet használni. Az egyetlen negatívum amit az appal szemben találtam, hogy a <b>járatok</b> menetrendjei <b>nem ellenőrizhetőek egyszerűen</b>.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 maps px-3 pt-3 pb-1 my-2">
+              <h3><span lang="en">Budapest GO</span></h3>
+              <p>Járatok, <b>megállók elmenthetőek</b>, gyorsan visszakereshetőek, így könnyítve az elindulást vagy az átszállást. Eddig sajnos nekem a <span lang="en">Google Maps</span> jobb útvonalterveket ajánlott, így az appot csak kiegészítésképp használom. Nagy pozitívum még viszont, hogy a Go-ban elektronikus <b>jegyünket vagy bérletünket is el tudjuk menteni</b>. A <span lang="en">Budapest GO</span> szintén elérhető a Play Áruházból vagy az <span lang="en">App Store</span>-ból.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="villamos" class="article">
+        <h2>Villamos</h2>
+        <p>A villamos szinte helyi különlegesség - eltekintve pár más nagyobb magyar várostól. Még Budapesten belül is vannak kerületek, ahol nem jár a sárga hernyó - épp ezért olyan különleges számomra napi szinten felszállni a 4-es 6-osra. Tagadhatatlan, hogy <b>a villamosok szerves részei a budapesti közlekedésnek</b>, mind a fontosabb pontokat összeköti hálózatuk, valamint az autók között beálló <b>dugó sincs rájuk hatással</b>. Egyetlen kifogásolnivaló tulajdonságuk - a problémás utasokon kívül - a gyakori technikai hibák, így szinte rutinommá vált a Corvin-tér Lágymányos közötti séta</p>
+        <img class="fleft" src="media/02_02.jpg" alt="2-es villamos a pályáján a Kossuth tér közelében">
+        <h3>2-es villamos</h3>
+        <p>Ha valaki Budapest legfontosabb részeit szeretné megnézni csupán fél óra alatt, a 2-es útvonala a tökéletes választás. A villamos a <b>Duna mentén halad</b> végig minden nevezetes helyet érintve egészen a <b>Jászai Mari tértől</b> a Hungária körút déli részén lévő <b>Közvágóhíd</b> megálló között. A járatról megcsodálható északról délre haladva a <b>Kossuth Lajos</b> tér és a <b>Parlament</b>, a budai oldalon a <b>Vár és a Gellért-hegy</b>, a <b>Lánchíd</b>, a <b>Szabadsághíd</b> valamint még <b>egyetemünk</b> épülete is. A 2-es fontos része egy könnyed városnéző túrának, de új élmény lehet azoknak is, akik még nem utaztak föld alatt villamossal.</p>
+        <h3>4-es 6-os villamos</h3> 
+        <p>A 4-es 6-os rettentő ikonikussá vált, még verset is írtak róla. Alig találkozom olyannal, aki ne hallott volna a <b>nagykörúton közlekedő</b> járatról. A 2-essel hasonlóképp ez a 2 villamos is összeköti a belváros minden szegletét, a <b>Széll Kálmán térről indulva</b> <b>Újbuda központig</b> és a <b>Móricz Zsigmond körtérig</b>. A 4-es 6-os utasai nagyon széles palettán mozognak: némelyikük, ha nem lenne, ki kéne találni. Meséltek már patkányos fószerről, hintaágyban utazókról, harmónikás kéregetőkről,  a járaton mindig történik valami bolondság. <b>0-24-es</b> közlekedésének köszönhetően egy-egy merészebb éjszaka után is elkíséri a fiatalokat, vagy reggel a korán munkába igyekvőket.</p>
+      </article>
+      <article id="metro" class="article">
+        <h2>Metró</h2>
+        <figure class="fright">
+          <a href="media/Budapest-metro-hun.png" target="_blank" title="Budapest metróhálózata kép megtekintése nagyobb változatban új ablakban">
+            <img src="media/Budapest-metro-hun-tumb.png" alt="Budapest metróhálózata">
+          </a>
+        </figure>
+        <!-- Sztori -->
+        <div class="sztori">
+          <p>Az óvodából hazafelé a Margit hídon mindig megálltunk úgy középtájt. Ott bújik át a metró a Duna alatt, és az ablakon látni lehet a halakat - magyaráztam Gazsinak. Láttam, hogy elgondolkozik, elcsendesedik. Vasárnap eljött a nagy nap, a Batthyányn beültünk az első kocsiba. Szótlanul, tágra nyílt szemmel ült a Kossuth térig. - Na, láttad a halakat? - kérdeztem mosolyogva már a mozgólépcsőn. - Igen, a legszebbek a piros színűek voltak - válaszolta komolyan.</p>
+          <p>100 szóban Budapest 2020, írta Zsigó György</p>
+        </div>
+
+        <div class="container-fluid metro">
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <h3>1-es metró</h3>
+              <p>“A <b>Kisföldalatti</b> szinte minden bemutatásánál elhangzik, hogy ez az európai kontinens első, a világ második metróvonala, és az <b>1896-os millenniumi ünnepségekre készült el</b>.” - írja a <span lang="en">We Love Budapest</span> oldala, így egyértelműen én sem kezdhettem mással a cikket. Korát megállói a mai napig őrzik - a legtöbbjük falára a csempén kívül még faberakás is került, és még mindig állnak a régi jegyeladó bódék. A többi budapesti metróval ellentétben az 1-es megállóiban nincsen mozgólépcső, és a kocsik is eléggé elavultak - de ez teszi szerethetővé. A leghangosabb járat a <b>Vörösmarty teret</b> köti össze a zuglói <b>Mexikói úttal</b>, olyan fontos helyeket érintve, mint például a <b>Városliget</b> vagy a <b>Hősök tere</b>. Mindig is szerettem a Kisföldalatti egyszerűségét, remélem még sokáig marad időkapszula Budapest belsejében.</p>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <h3>2-es metró</h3>
+              <p>Aki sokat utazott a 2-es metróval tudja, milyen egyszerű de nagyszerű ez a vonal. A megállói letisztultak, nem túl régiek, a kocsija szokványos állapotban van, a pályája pedig a legfontosabb tereket és látványosságokat köti össze. Van felszín feletti és alatti része is, hosszú (néha órákig tartó - na jó nem :)) ) megállója - igen itt a Puskás - Keletire gondoltam, összességében az <b>egyik legfontosabb</b> budapesti szerelvény. Éjjelente hamar össze lehet barátkozni idegenekkel például egy papírrepülő csata keretein belül, amiket a minden reggel osztogatott ingyenes újság maradványai tesznek lehetővé. Van, amikor a gyorsaság nem előny - közlekedés szempontjából viszont az, és a 2-es tökéletesen be is tartja ezt: közel <b>20 percen belül</b> áthalad az egész városon, beleértve a <b>Dunát</b> is. Gondolom látszik, hogy külkerületiként ezzel közlekedek a legtöbbet - ezzel is igazolva, mennyit segít az ingázóknak és agglomerációban élőknek a kedves 2-es.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <h3>3-as metró</h3>
+              <p>Március 21.-én felavattam a 3-as metrót. A sok felújításnak hála mára már a köztudatban egy folyamatosan lezárt és terelt vonalként él a kék metró, és az, hogy <b>újra teljes vonalon közlekedik</b>, mintha egy teljesen új járatot adott volna a városnak. Véleményem szerint az új megállók nem lettek modernebbek, csak letisztultabbak, a régi kocsikat is megtartották, amiken <span lang="en">fun fact</span>: van nem használt leszállásjelző is. A 3-as közlekedési szempontból irtó fontos, nem is értem, hogy bírták az emberek a folyamatos lezárásokat. <b>Újpest Városközpontot</b> köti össze <b>Kőbánya-Kispesttel</b>, ez teszi a <b>leghosszabb</b> budapesti metróvonallá. A kocsikon mindig erős fehér fény ég, ezzel egy sokkal városiasabb hatást keltve, mint a 2-es sárgás fénye. A felújításoknak hála a 3-assal már bárki közlekedhet - az <b>új megállók akadálymentesek</b>, és “színesebb” gyerekbarátabbak lettek.
+                Cikk: <a href="https://telex.hu/belfold/2023/03/20/3-as-metro-budapest-teljes-vonal-atadas-ujpest-kozpont-kobanya-kispest-allomasok" target="_blank">3-as metró átadása</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <h3>4-es metró</h3>
+              <p>A 4-es metró a <b>legfiatalabb</b> vonal - annak ellenére, hogy már 1970-ben tervben volt, csak 2014-re született meg. Kocsijai ugyan olyanok, mint a 2-esnek, megállói viszont annál nagyobb figyelmet kaptak az átadást követően. Szinte mindenki a Szent Gellért térre vagy a Bikás parkba járt fotózkodni, a várók belmagassága is sokkal nagyobb az előzőekhez képest. 2014-ben könnyen elérhetővé vált <b>Kelenföld</b> is, valamint <b>Újbuda fontosabb csomópontjai</b>, a <b>Keleti aluljáró</b> pedig még nagyobb lett, mint volt. A 4-es fiatalságának ellenére mára már jól beépült a budapesti közlekedésbe, segítve a budaiakat és a vonatozókat egyaránt.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-lg-3">
+            <aside id="troli" class="article">
+              <h2>Troli</h2>
+              <p>Őszintén, trolival kapcsolatban nincsen elég tapasztalatom cikkek írásához, így ha van egy jó kis trolis sztorid, küldd be nekem!</p>
+              <a href="index.html">Beküldöm</a>
+              <img src="media/bolya.png" alt="pixeles bólya ábra">
+            </aside>
+          </div>
+          <div class="col-xs-12 col-lg-9">
+            <article id="hajo" class="article">
+              <h2>BKV hajó</h2>
+              <p>Nem sokan hallottak róla, pedig budapest bérletünkkel még hajóra is szállhatunk a Duna mentén. Az alábbi 2022-es videó jól összefoglalja, mit kell tudni a BKV hajózásról: </p>
+              <div id="hajodiv">
+                <video controls poster="media/video_kep.jpg" id="hajovid">
+                  <source src="media/video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <a href="video.xhtml" target="_blank">Videó részletes leírása</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footerdiv">
+        <div class="row">
+          <div class="col c1"><img src="media/en.png" alt="pixeles ábra egy barna hajú lányról"></div>
+          <div class="col c2"><p>Készítette: Molnár Eszter<br>mol.eszter04@gmail.com<br><span lang="en">Spotify</span> <a href="https://open.spotify.com/playlist/2W4whdVtq26Lt2WSVCji4I?si=75f825b3049e40bf" target="_blank">link</a><br><q>Jó utazás, jó zene</q></p></div>
+        </div>
+        <div class="row">
+          <!-- <div class="col c1"><button onclick="setActiveStyleSheet('alap')" id="normal">Normál téma</button></div> -->
+          <div class="col"><button  id="nagybetus" >Nagybetűs, kontrasztos téma</button></div> <!--onclick="setActiveStyleSheet('nagyb')"-->
+        </div>
+      </div>
+  </footer>
+
+</body>
+</html>

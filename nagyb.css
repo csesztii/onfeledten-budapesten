@@ -1,0 +1,183 @@
+/* A kontrasztarányok le vannak ellenőrizve a https://webaim.org/resources/contrastchecker/ oldal által */
+
+@import url('style.css');
+
+#navid{
+    background-color: #8F0000;
+}
+
+p, a, li, h3, h4, label, button, q, td, th, caption, figcaption, .btn{
+    font-size: 1.6rem;
+}
+
+.sztori{
+    background-color: #CFBFAA;
+}
+
+h1{
+    background-color: #ffffff;
+    color:#756010;
+    text-shadow: none;
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+/* Header */
+.bemutatkozas{
+    width: 770px;
+    left: 100px;
+}
+
+/* Footer */
+footer img{
+    width: 80px;
+}
+
+/* Első oldal */
+#formdiv h2{
+    color: #8F0000;
+}
+
+#teszt p, #teszt a{
+    color: #2f2f32;
+}
+
+button.btn{
+    background-color: #25548E;
+}
+
+#teszt img{
+    width: 100%;
+}
+
+/* Resztponzivitas */
+@media (max-width: 300px){
+    .header h1{
+        font-size: 1rem;
+    }
+}
+
+ @media (max-width: 767px) and (width: 767px){
+    /* Header - első oldal*/
+    .bemutatkozas{
+        left: 0px;
+        width: 100%;
+    }
+
+    header.index .quote{
+        bottom: 10px;
+    }
+
+    .header.index{
+        height: 2300px;
+    }
+
+    /* Header */
+    .header h1{
+        font-size: 1.9rem;
+    }
+
+
+    .header{
+        height: 600px;
+    }
+
+    /* Footer */
+    footer img{
+        float: left;
+    }
+ }
+
+ @media (min-width: 400px){
+    .header.index{
+        height: 2100px;
+    }
+
+    .bemutatkozas{
+        left: 0px;
+    }
+
+    header.index .quote{
+        bottom: 10px;
+        right: 0px;
+    }
+ }
+
+ @media (min-width: 500px){
+    .header.index{
+        height: 1800px;
+    }
+ }
+
+ @media (min-width: 600px){
+    .header.index{
+        height: 1500px;
+    }
+ }
+
+ @media (min-width: 768px){
+    .header h1{
+        top: 20px;
+        bottom: auto;
+    }
+
+    header.index>.head>.quote{
+        width: 700px;
+    }
+
+ }
+
+ @media (min-width: 992px){
+    .header.index{
+        height: 1080px;
+    }
+
+    #navtitle{
+        display: none;
+    }
+
+    header.index .quote{
+        width: 700px;
+    }
+
+    .header h1{
+        font-size: 1.7rem;
+        left: 10px;
+    }
+
+    .header h1:before{
+        content: "Önfeledten Budapesten | ";
+    }
+
+    .bemutatkozas{
+        width: 90%;
+        top: 40px;
+        bottom: auto;
+        right: 0px;
+    }
+ }
+
+ @media (min-width: 1200px){
+    .header h1{
+        font-size: 2.5rem;
+    }
+
+    .header h1:before{
+        content: none;
+    }
+
+    #navtitle{
+        display: block;
+    }
+    
+ }
+
+ @media (min-width: 1400px){
+    .header h1{
+        top: auto;
+        bottom: 10px;
+    }
+ }

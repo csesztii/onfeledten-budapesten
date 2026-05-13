@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Boostrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" title="alap" id="alapccs">
+    <link rel="alternate stylesheet" href="nagyb.css" title="nagyb" id="nagybccs" disabled>
+    <!-- JS -->
+    <script src="script.js"></script>
+    <!-- Google Icon -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+    <title>Önfeledten Budapesten</title>
+</head>
+<body>
+
+  <!-- Tartalomra ugrás -->
+  <nav id="tartalomraugras">
+    <a href="#tartalom1">Ugrás a tartalomra</a>
+  </nav>
+
+  <!--Navigation-->
+      <nav class="navbar navbar-expand-lg fixed-top" id="navid">
+        <div class="container-fluid navbar-custom">
+          <a class="navbar-brand" href="index.html" id="navtitle">Önfeledten Budapesten</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link navlink current" id="nav1" href="index.html">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" id="nav2" href="kozlekedes.html">Közlekedés</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" id="nav3" href="programterkep.html">Programtérkép</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" id="nav4" href="kialakulasa.html">Kialakulása</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Header-->
+      <header class="header index">
+        <div id="head">
+          <div class="bemutatkozas" id="tartalom1">
+            <p>Egész életemben Budapesten éltem; a IV. kerületben születtem, majd 2 évig belekóstoltam a panellakás szépségeibe is a XV. kerületben. Amióta az eszemet tudom, a 17-ben lakom családommal, ide jártam óvodába, iskolába, gimnáziumba is. Aztán jött a változás. Az egyetem miatt napi 2,5 órát utazom, ami elsőre soknak tűnik, azonban teljesen “kinyílt a világ” számomra, és olyan részeit ismertem meg Budapestnek, amelyekről gondolni sem mertem volna, hogy ilyen különlegesek. Járókelőként egy teljesen más oldalról látom a várost, és igyekszem is mindig megörökíteni a helyeket, amelyek nagy hatással vannak rám, így az oldalon kizárólag saját készítésű képeket használtam fel. A blog főleg a saját tapasztalataimat dolgozza fel, valamint igyekszem rávilágítani arra, hogy az apró dolgokban is mennyi szépség rejlik: hogy tudatosabban utazva egy teljesen más élményben lehet részünk.</p>
+          </div>
+          <div class="quote">
+            <q>És ott állunk majd kéz a kézben <br>
+              Vagy ülünk a Szabadság hídon <br>
+              Te bármerre mennél csak el innen <br>
+              S én azt mondom majd, hogy nem tudom <br>
+              De van ez a város <br>
+              Van ez a város <br>
+              Vagyunk lakói <br>
+              Neve is van, Budapest</q>
+            <p><span lang="en">4Bards</span> - Van ez a város</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="teszt">
+              <p>Te melyik budapesti közlekedési eszköz lennél? Töltsd ki a kvízt, és olvass tovább a <a href="kozlekedes.html">Közlekedés</a> oldalon</p>
+              <a href="https://refresher.hu/1419-KVIZ-Tudd-meg-TE-melyik-BKK-jarat-lennel-a-szemelyiseged-alapjan" target="_blank">Teszt kitöltése</a>
+              <img src="media/hajo.png" alt="pixeles hajó ábra">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+
+              <!--Urlap-->
+              <div id="formdiv">
+                <form action="mailto:mol.eszter04@gmail.com" method="post" enctype="text/plain">
+                  <div><h2>Meséld el a kedvenc budapesti élményed!</h2></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="form-group col">
+                          <label for="name" class="inp">Neved:</label>
+                          <input type="text" class="form-control" id="name" name="name" maxlength="100">
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="form-group col">
+                          <label for="email" class="inp">E-mail címed:</label>
+                          <input type="email" class="form-control" id="email" name="email" maxlength="70">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="form-group">
+                          <label class="inp">Hol történt?</label>
+                          <div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="where" id="buda" value="Budán">
+                              <label class="form-check-label" for="buda">Budán</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="where" id="pest" value="Pesten">
+                              <label class="form-check-label" for="pest">Pesten</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="where" id="uttest" value="Az úttesten">
+                              <label class="form-check-label" for="uttest">Az úttesten</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="form-group align-content-center">
+                          <label class="inp">Mivel utaztál?</label>
+                          <div class="utazas">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" name="transport[]" id="bus" value="Busz">
+                              <label class="form-check-label" for="bus">Busz</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" name="transport[]" id="villamos" value="Villamos">
+                              <label class="form-check-label" for="villamos">Villamos</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" name="transport[]" id="trolib" value="Troli">
+                              <label class="form-check-label" for="trolib">Troli</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" name="transport[]" id="metro" value="Metró">
+                              <label class="form-check-label" for="metro">Metró</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" name="transport[]" id="hev" value="Hév">
+                              <label class="form-check-label" for="hev" >Hév</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group col">
+                    <label for="experience" class="inp">Mi történt?</label>
+                    <textarea class="form-control" id="experience" name="experience" rows="3" maxlength="1000"></textarea>
+                  </div>
+                  <div><button type="submit" class="btn">Elküld</button><button type="reset" class="btn">Töröl</button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Sztori-->
+        <section class="sztori" id="fulesbagoly">
+          <img class="fright" src="media/01_01.jpg" alt="boráros tér naplementében">
+          <h2 class="mb-3">Fülesbagoly</h2>
+          <p>"A vonatállomáson álltam, Budapest határán, épp magára hagytam volna a várost egy hétvégére, hadd pihenjen egy kicsit. A fülemben zene szólt, hogy olyannak láthassam a peront, amilyennek én akartam. Egy bácsi lépett hozzám, és nem kéregetett, sőt adni kívánt. Egy fülesbaglyot. A vállam kopogtatta meg, olyan vidékiesen. „Ott egy fülesbagoly szemben. Ön, úgy tűnt, mint aki örülne egy fülesbagolynak."
+          És én örültem is, hazavittem Budapestből egy bagolynyi darabot. Nem mondtam el neki, hogy a kelenföldi madár imposztor, kőből van, mert a szívem nem, és azt hiszem, hallani véltem a bácsi felől a szárnysuhogást.</p>
+          <p>100 szóban Budapest 2020, írta Dubán Kitti</p>
+        </section>
+      </div>
+      
+      <!-- Footer -->
+      <footer class="footer">
+          <div class="container footerdiv">
+            <div class="row">
+              <div class="col c1"><img src="media/en.png" alt="pixeles ábra egy barna hajú lányról"></div>
+              <div class="col c2"><p>Készítette: Molnár Eszter<br>mol.eszter04@gmail.com<br><span lang="en">Spotify</span> <a href="https://open.spotify.com/playlist/2W4whdVtq26Lt2WSVCji4I?si=75f825b3049e40bf" target="_blank">link</a><br><q>Jó utazás, jó zene</q></p></div>
+            </div>
+            <div class="row">
+              <!-- <div class="col c1"><button onclick="setActiveStyleSheet('alap')" id="normal">Normál téma</button></div> -->
+              <div class="col"><button  id="nagybetus" >Nagybetűs, kontrasztos téma</button></div> <!--onclick="setActiveStyleSheet('nagyb')"-->
+            </div>
+          </div>
+      </footer>
+</body>
+</html>
