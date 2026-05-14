@@ -1,6 +1,6 @@
 # Önfeledten Budapesten - Forgotten in Budapest
 
-A personal love letter to Budapest through an interactive web experience. This project celebrates the history, culture, and memories of Hungary's capital city through multiple thematic pages, engaging stories, and user interaction.
+A personal love letter to Budapest through an interactive web experience. This project celebrates the history, culture, and memories of Hungary's capital city through multiple thematic pages, engaging stories, and user interaction. Created for a University Project.
 
 ## 📖 About the Project
 
@@ -11,7 +11,7 @@ A personal love letter to Budapest through an interactive web experience. This p
 - **Interactive Navigation**: Browse through multiple themed pages
   - **Home Page (Kezdőlap)**: Introduction and user story submission form
   - **Transport (Közlekedés)**: Explore Budapest's public transportation system
-  - **Program Map (Programtérkép)**: Discover events and locations throughout the city
+  - **Program Map (Programtérkép)**: Discover events and locations throughout the city (personal recommendations)
   - **History (Kialakulása)**: Learn about Budapest's formation and development
 
 - **User Stories**: Submit your favorite Budapest memories through an interactive form
@@ -32,7 +32,6 @@ The project is built with:
 ### Dependencies
 
 - **Bootstrap 5.0.2** - Responsive grid system and UI components
-- **Google Material Symbols** - Icon library (currently commented out)
 
 ## 📁 Project Structure
 
@@ -58,7 +57,7 @@ onfeledten-budapesten/
 ### 1. Story Submission Form
 Users can share their favorite Budapest memories by filling out a form that captures:
 - Name and email
-- Location (Buda, Pest, or street-level)
+- Location
 - Mode of transportation used
 - Detailed description of the experience
 
@@ -90,17 +89,6 @@ git clone https://github.com/csesztii/onfeledten-budapesten.git
 ```
 
 2. Open `index.html` in your web browser
-
-3. Alternatively, if you want to serve it locally:
-```bash
-# Using Python 3
-python -m http.server 8000
-
-# Using Node.js with http-server
-npx http-server
-```
-
-Then navigate to `http://localhost:8000` (or the port specified)
 
 ### Usage
 
@@ -140,23 +128,7 @@ The site uses Bootstrap's responsive grid system with breakpoints:
 
 - **Creator**: Molnár Eszter ([mol.eszter04@gmail.com](mailto:mol.eszter04@gmail.com))
 - **Related Playlist**: [Spotify Playlist](https://open.spotify.com/playlist/2W4whdVtq26Lt2WSVCji4I)
-- **Inspiration**: [4Bards - "Van ez a város"](https://www.youtube.com/results?search_query=4Bards+Van+ez+a+város) (song featured in the project)
-- **Story Source**: 100 szóban Budapest 2020, írta Dubán Kitti
-
-## 📝 Form Submission
-
-The contact form uses the `mailto:` method to send submissions directly to the creator's email. For a production environment, consider:
-- Setting up a backend server to process form submissions
-- Using services like Formspree or Basin for form handling
-- Implementing proper validation and security measures
-
-## 🌐 Deployment
-
-This site is perfect for hosting on:
-- **GitHub Pages** - Free hosting for static sites
-- **Netlify** - Simple drag-and-drop deployment
-- **Vercel** - Optimized for static content
-- **Traditional web hosts** - Any host supporting static HTML/CSS/JS
+- **Story Sources**: 100 szóban Budapest 2020
 
 ### GitHub Pages Deployment
 The repository is already configured with GitHub Pages enabled. Visit:
